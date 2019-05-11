@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(image/main.jpg);
+	background-size:cover;
+}
+
+.main{
+	
+}
+
+#topnav{
+	background-color:grey;
+	height:30vh;
+	opacity:0.5;
+	
+	
+}
+.ul 
+{
+	display:flex;	
+	list-style:none;
+	margin:0;
+	
+	
+}
+.ul li{
+
+	
+}
+
+.ul li a{
+	
+	display:block;
+	text-decoration:none;
+	padding:0 30px 0 30px;
+	color:white;
+	font-family:"San-serif";
+	font-size:30px;
+	transition:.5s;
+	
+}
+
+.ul:hover li a{
+	filter:blur(5px);
+	transition:.5s;
+	transform:scale(0.8);
+}
+
+
+.ul li a:hover {
+	transform:scale(1.5);
+	transition:.5s;
+	filter:blur(0);
+	color:yellow;
+	opacity:2;
+}
+
+
+

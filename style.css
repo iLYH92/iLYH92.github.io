@@ -1,61 +1,114 @@
 @charset "utf-8";
 /* CSS Document */
-
+html {
+  scroll-behavior: smooth;
+}
 body{
-	background-image:url(image/main.jpg);
+	background-attachment:fixed;
+	background-image:url(image/mainz.jpg);
 	background-size:cover;
+	position:relative;
 }
 
-.main{
+#jumbotron{
+	height:12vh;
 	
+	text-align:center;
+}
+.banner{
+	
+	line-height:12vh;
+}
+.navbar{
+	height:6vh;
+	opacity:0.7;
 }
 
-#topnav{
-	background-color:grey;
-	height:30vh;
-	opacity:0.5;
-	
-	
-}
 .ul 
 {
 	display:flex;	
 	list-style:none;
 	margin:0;
-	
-	
-}
-.ul li{
-
-	
+	padding:0;
+	text-align:center;
 }
 
-.ul li a{
-	
-	display:block;
-	text-decoration:none;
-	padding:0 30px 0 30px;
-	color:white;
-	font-family:"San-serif";
-	font-size:30px;
+.ul li i{
+	padding:0 10px 0 10px;
+	color:black;
 	transition:.5s;
+	opacity:2;
+	margin:0;
+}
+.ul li a.active{
+	border-width:0.1px;
+	border-style: solid;
+  	color: red;
+}
+
+.ul li .p{
+	padding:0 30px 0 30px;
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	font-family:"San-serif";
+	font-size:20px;
+	transition:.5s;
+	opacity:2;
+	margin:0;
+	display: inline-block;
 	
 }
 
-.ul:hover li a{
+.ul:hover .p {
 	filter:blur(5px);
 	transition:.5s;
 	transform:scale(0.8);
 }
 
 
-.ul li a:hover {
+.ul li .p:hover {
 	transform:scale(1.5);
 	transition:.5s;
 	filter:blur(0);
-	color:yellow;
-	opacity:2;
+	color:#C60000;
+}
+.ul li i:hover {
+	transform:scale(1.5);
+	transition:.5s;
+	color:blue;
 }
 
+#homeid{
+	font-size:100px;
+	
+}
 
+#homesec{
+	height:80vh;
+	font-family:"Courier New";
+}
+#about{
+	
+}
 
+.section{
+	width:100vw;
+	height:100vh;
+}
+
+#namecard{
+	background-color:white;
+	border-bottom-style:solid;
+	border-color:dark;
+	border-width:100px;
+	padding:30px;
+	background-color: rgba(255,255,255,.2);
+}
+
+.img{
+	
+}
+.nc{
+	margin-right:10px;
+}

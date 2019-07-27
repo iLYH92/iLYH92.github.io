@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg1{
+	display:none;
+}
+.bg{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../images/home_1080.jpg');
+	background-position: left bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.logo img,.content img,.button img{
+	display: block;
+	margin: auto;
+}
+.logo img{
+	padding-top:20px;
+	width: auto;
+	height: 40vh;
+}
+.content img{
+	margin-top:20px;
+	height: 25vh;
+}
+.button img{
+	margin-top: 30px;
+	height: 10vh;
+}
+@media only screen and (max-width: 480px) {
+    .bg1{
+		display:block;
+		width: 100vw;
+		height: 100vh;
+		background-image: url('../images/home.jpg');
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+    .bg, .logo img,.content img,.button img{
+		display:none;
+	}
+	.logo1 img,.content1 img,.button1 img{
+	    display: block;
+		margin: auto;
+	}
+	.logo1 img{
+		padding-top:20px;
+		width: auto;
+		height: 40vh;
+	}
+	.content1 img{
+		margin-top:40px;
+		height: 16vh;
+	}
+	.button1 img{
+		margin-top:30px;
+		height:8vh;
+	}		
+}
+	@media only screen and (max-width: 1024px) {
+    .logo img{
+    	padding-top:20px;
+		width: auto;
+		height: 33vh;
+	}
+	.content img{
+		margin-top:30px;
+		height: 20vh;
+	}
+	.button img{
+		margin-top: 30px;
+		height: 8vh;
+	}	
+}

@@ -8,7 +8,7 @@
 .bg{
 	width: 100vw;
 	height: 100vh;
-	background-image: url('../images/home_1080.jpg');
+	background-image: url('home_1080.jpg');
 	background-position: left bottom;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 		display:block;
 		width: 100vw;
 		height: 100vh;
-		background-image: url('../images/home.jpg');
+		background-image: url('home.jpg');
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 	}

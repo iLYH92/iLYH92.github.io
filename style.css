@@ -35,9 +35,9 @@
 		display:block;
 		width: 100vw;
 		height: 100vh;
-		background-image: url('home.jpg') no-repeat center center fixed;
+		background-image: url('home.jpg');
 	    
-	background-size: cover;
+	background-size: 100% 100%;
 	
 		
 	}

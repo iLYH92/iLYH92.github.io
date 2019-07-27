@@ -37,7 +37,7 @@
 		height: 100vh;
 		background-image: url('home.jpg');
 	    
-	background-size: 100% 100%;
+	background-size: cover;
 	
 		
 	}

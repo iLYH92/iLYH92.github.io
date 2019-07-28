@@ -36,7 +36,7 @@
 		width: 100vw;
 		height: 100vh;
 		background-image: url('home.jpg');
-	    background-position: left bottom;
+	   
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

@@ -37,7 +37,7 @@
 		height: 100vh;
 		background-image: url('home.jpg');
 	   
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
     .bg, .logo img,.content img,.button img{
